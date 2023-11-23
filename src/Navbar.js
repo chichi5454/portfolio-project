@@ -33,6 +33,10 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             {" "}
+            <a href="/">Blog</a>
+          </li>
+          <li className="nav-link">
+            {" "}
             <a href="/">Contact</a>
           </li>
         </ul>
