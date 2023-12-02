@@ -1,38 +1,37 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Recursive&family=Roboto+Mono:wght@100;400&display=swap");
+
+:root {
+  --primary-color: #352f44;
+  --secondary-color: #b9b4c7;
+}
+
+body {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-family: "Recursive", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 50px;
+  width: 95%;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  /* background-color: blue; */
 }
-
-.App-link {
-  color: #61dafb;
+.App .page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 570px) {
+  .page-top {
+    z-index: 500;
   }
-  to {
-    transform: rotate(360deg);
+  .page-content {
+    z-index: 0;
   }
 }
