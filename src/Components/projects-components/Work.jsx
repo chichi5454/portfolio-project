@@ -14,7 +14,7 @@ const Work = () => {
         <h4>Each project is a unique piece of development 🧩</h4>
         <div className="work-page-project">
           <div className="work-page-content">
-            <h3>company website</h3>
+            <h3>Company Website</h3>
             <p>
               A company official website that allows users to access company
               details and services for educational or business use. The website
@@ -39,9 +39,7 @@ const Work = () => {
         <div className="work-page-project">
           <div className="work-page-content">
             <h3>Calculator App</h3>
-            <p>
-              A calculator app allows users to solve for math problems swiftly.
-            </p>
+            <p>A calculator app allows users to solve math problems swiftly.</p>
             <div className="work-bottom">
               <button>HTML</button>
               <button>CSS</button>
@@ -73,7 +71,7 @@ const Work = () => {
             <h3>Weather App</h3>
             <p>
               A weather app allows users to search for weather information about
-              various locations in real-time and forecast of next 5 days.
+              various locations in real-time and view forecast of next 5 days.
             </p>
             <div className="work-bottom">
               <button>React JS</button>

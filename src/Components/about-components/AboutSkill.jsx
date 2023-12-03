@@ -28,10 +28,10 @@ const AboutSkill = () => {
         <h3>ABOUT ME</h3>
         <div>
           <p>
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, React, Bootstrap, and GitHub tool.
-            I excel in designing and maintaining responsive websites that offer
-            a smooth user experience.
+            As a passionate Front-End Developer, I possess an impressive arsenal
+            of skills in HTML, CSS, JavaScript, React, Bootstrap, and the GitHub
+            tool. I excel in designing and maintaining responsive websites that
+            offer a smooth user experience.
           </p>
           <p>
             My expertise lies in crafting dynamic, engaging interfaces through
@@ -44,7 +44,7 @@ const AboutSkill = () => {
           </p>
           <p>
             I'm a lifelong learner and always looking for new ways to grow and
-            improve my skills. I'm currently learning more or React js and
+            improve my skills. I'm currently learning more on React js and
             excited for this tech journey.
           </p>
         </div>
