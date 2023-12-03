@@ -29,6 +29,9 @@
   font-size: 12px;
   font-weight: 400;
 }
+.footer-layer-three-details a {
+  color: #fff;
+}
 .Footer .footer-end {
   display: flex;
   justify-content: right;

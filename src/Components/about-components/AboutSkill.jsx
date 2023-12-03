@@ -1,8 +1,8 @@
 /** @format */
-import GitHubIcon from "@mui/icons-material/GitHub";
-import CssIcon from "@mui/icons-material/Css";
-import HtmlIcon from "@mui/icons-material/Html";
-import JavascriptIcon from "@mui/icons-material/Javascript";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import CssIcon from "@mui/icons-material/Css";
+// import HtmlIcon from "@mui/icons-material/Html";
+// import JavascriptIcon from "@mui/icons-material/Javascript";
 import React from "react";
 
 import "./aboutskill.css";
@@ -20,9 +20,9 @@ const AboutSkill = () => {
           <button>Bootstrap</button>
           <button>GitHub</button>
         </div>
-        <div className="aboutSkill-socials">
+        {/* <div className="aboutSkill-socials">
           <HtmlIcon /> <CssIcon /> <JavascriptIcon /> <GitHubIcon />
-        </div>
+        </div> */}
       </div>
       <div className="aboutSkill-page-content-two">
         <h3>ABOUT ME</h3>

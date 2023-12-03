@@ -68,6 +68,7 @@ a {
   display: none;
   border: none;
   background-color: transparent;
+  color: var(--primary-color);
 }
 
 /* media queries */

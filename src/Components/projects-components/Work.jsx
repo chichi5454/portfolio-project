@@ -27,6 +27,10 @@ const Work = () => {
               <button> Flexbox</button>
               <button>GitHub</button>
             </div>
+            <div className="demo">
+              <button>Live Demo</button>
+              <button>Code</button>
+            </div>
           </div>
           <div className="work-page-img">
             <img src={cef} alt="company website" />
@@ -43,6 +47,21 @@ const Work = () => {
               <button>CSS</button>
               <button>JavaScript</button>
               <button>GitHub</button>
+            </div>
+            <div className="demo">
+              <a
+                href="https://cerulean-hotteok-acfd32.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Live Demo</button>
+              </a>
+
+              <a
+                href="https://github.com/chichi5454/project-calculator-app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Code</button>
+              </a>
             </div>
           </div>
           <div className="work-page-img">
@@ -62,6 +81,21 @@ const Work = () => {
               <button>JavaScript</button>
               <button>API Integration</button>
               <button>GitHub</button>
+            </div>
+            <div className="demo">
+              <a
+                href="https://guileless-mooncake-f3d130.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Live Demo</button>
+              </a>
+
+              <a
+                href="https://github.com/chichi5454/last-project-shecodes-react"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Code</button>
+              </a>
             </div>
           </div>
           <div className="work-page-img">

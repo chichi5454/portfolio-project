@@ -7,7 +7,7 @@ const ContactMe = () => {
     <div className="contact-page">
       <h2>Contact Me</h2>
       <div className="contact-page-content">
-        <h5>Want to work with me? Lets Connect</h5>
+        <h5>For Business Inquiries, Contact Me..... {""}</h5>
         <form>
           <input type="text" placeholder="Enter Name" />
           <input
@@ -18,7 +18,7 @@ const ContactMe = () => {
           />
           <input type="text" placeholder="Enter Message" />
           <button>
-            <a href="mailto:chichi54lora@.com"> CONNECT</a>
+            <a href="mailto:chichi54lora@.com"> SEND</a>
           </button>
         </form>
       </div>

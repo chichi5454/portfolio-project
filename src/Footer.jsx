@@ -35,9 +35,24 @@ const Footer = () => {
             <h5>Contact</h5>
           </div>
           <div className="footer-layer-three-details">
-            <p>Twitter</p>
-            <p>GitHub</p>
-            <p>LinkedIn</p>
+            <a
+              href="https://twitter.com/codewithchichi"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>Twitter</p>
+            </a>
+            <a
+              href="https://github.com/chichi5454"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>GitHub</p>
+            </a>
+            <a
+              href="http://www.linkedin.com/in/lauryn-m-abb6b6187"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>LinkedIn</p>
+            </a>
           </div>
         </div>
       </div>
