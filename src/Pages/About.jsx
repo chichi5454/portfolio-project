@@ -7,7 +7,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <AboutMe />
       <AboutSkill />
     </div>

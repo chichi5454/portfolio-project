@@ -8,7 +8,7 @@ import "./work.css";
 
 const Work = () => {
   return (
-    <div className="Work">
+    <div className="Work" id="project">
       <h2>My Projects</h2>
       <div className="work-page">
         <h4>Each project is a unique piece of development 🧩</h4>

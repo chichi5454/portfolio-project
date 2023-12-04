@@ -5,7 +5,7 @@ import ContactMe from "../Components/contact-components/ContactMe";
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <ContactMe />
     </div>
   );

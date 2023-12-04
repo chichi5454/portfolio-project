@@ -28,11 +28,11 @@ const Navbar = () => {
           </li>
           <li className="nav-link" onClick={handleClicks}>
             {" "}
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="nav-link" onClick={handleClicks}>
             {" "}
-            <a href="https://www.shecodesfoundation.org/kenya" target="blank">
+            <a href="#projects" target="blank">
               Projects
             </a>
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
           <li className="nav-link" onClick={handleClicks}>
             {" "}
-            <a href="/">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
