@@ -5,7 +5,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div className="contact-page">
-      <h2>Contact Me</h2>
+      <h2>CONTACT ME</h2>
       <div className="contact-page-content">
         <h5>For Business Inquiries, Contact Me..... {""}</h5>
         <form>

@@ -3,8 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive&family=Roboto+Mono:wght@100;400&display=swap");
 
 :root {
-  --primary-color: #352f44;
-  --secondary-color: #b9b4c7;
+  --primary-color: #ced4da;
+
+  /* #352f44; */
+  /* --secondary-color: #b9b4c7; */
 }
 
 body {
@@ -17,8 +19,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
+  padding: 10px;
+  color: var(--primary-color);
+  background-color: #000000;
   /* background-color: aqua; */
   /* background-color: blue; */
 }

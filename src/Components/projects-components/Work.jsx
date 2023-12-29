@@ -21,12 +21,12 @@ const Work = () => {
               provides an interface for information, membership options, and
               tools to help users achieve desired interests from the company.
             </p>
-            <div className="work-bottom">
+            {/* <div className="work-bottom">
               <button>React JS</button>
               <button>CSS</button>
               <button> Flexbox</button>
               <button>GitHub</button>
-            </div>
+            </div> */}
             <div className="demo">
               <button>Live Demo</button>
               <button>Code</button>
@@ -40,12 +40,12 @@ const Work = () => {
           <div className="work-page-content">
             <h3>Calculator App</h3>
             <p>A calculator app allows users to solve math problems swiftly.</p>
-            <div className="work-bottom">
+            {/* <div className="work-bottom">
               <button>HTML</button>
               <button>CSS</button>
               <button>JavaScript</button>
               <button>GitHub</button>
-            </div>
+            </div> */}
             <div className="demo">
               <a
                 href="https://cerulean-hotteok-acfd32.netlify.app/"
@@ -73,13 +73,13 @@ const Work = () => {
               A weather app allows users to search for weather information about
               various locations in real-time and view forecast of next 5 days.
             </p>
-            <div className="work-bottom">
+            {/* <div className="work-bottom">
               <button>React JS</button>
               <button>CSS</button>
               <button>JavaScript</button>
               <button>API Integration</button>
               <button>GitHub</button>
-            </div>
+            </div> */}
             <div className="demo">
               <a
                 href="https://guileless-mooncake-f3d130.netlify.app/"

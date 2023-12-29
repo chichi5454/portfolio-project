@@ -1,13 +1,15 @@
 /** @format */
-// import GitHubIcon from "@mui/icons-material/GitHub";
-// import CssIcon from "@mui/icons-material/Css";
-// import HtmlIcon from "@mui/icons-material/Html";
-// import JavascriptIcon from "@mui/icons-material/Javascript";
-import React from "react";
 
+import React, { useState } from "react";
 import "./aboutskill.css";
 
 const AboutSkill = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleMore = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <div className="aboutSkill-page">
       <div className="aboutSkill-page-content-one">
@@ -20,9 +22,6 @@ const AboutSkill = () => {
           <button>Bootstrap</button>
           <button>GitHub</button>
         </div>
-        {/* <div className="aboutSkill-socials">
-          <HtmlIcon /> <CssIcon /> <JavascriptIcon /> <GitHubIcon />
-        </div> */}
       </div>
       <div className="aboutSkill-page-content-two">
         <h3>ABOUT ME</h3>
@@ -33,21 +32,22 @@ const AboutSkill = () => {
             tool. I excel in designing and maintaining responsive websites that
             offer a smooth user experience.
           </p>
-          <p>
-            My expertise lies in crafting dynamic, engaging interfaces through
-            writing clean and optimized code and utilizing cutting-edge
-            development tools and techniques.
-          </p>
-          <p>
-            I am also a team player who thrives in collaborating with
-            cross-functional teams to produce outstanding web applications.
-          </p>
-          <p>
-            I'm a lifelong learner and always looking for new ways to grow and
-            improve my skills. I'm currently learning more on React js and
-            excited for this tech journey.
-          </p>
+
+          {showMore && (
+            <p>
+              My expertise lies in crafting dynamic, engaging interfaces through
+              writing clean and optimized code and utilizing cutting-edge
+              development tools and techniques. I am also a team player who
+              thrives in collaborating with cross-functional teams to produce
+              outstanding web applications. I'm a lifelong learner and always
+              looking for new ways to grow and improve my skills. I'm currently
+              learning more on React js and excited for this tech journey.
+            </p>
+          )}
         </div>
+        <button onClick={handleMore}>
+          {showMore ? "Show Less" : "Show More"}
+        </button>
       </div>
     </div>
   );

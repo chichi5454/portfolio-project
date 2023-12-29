@@ -150,16 +150,10 @@
 }
 
 @media (max-width: 570px) {
-  /* .Aboutme {
-      animation: none;
-    } */
   .Aboutme .about-me-content {
     width: 100%;
-    /* animation: none; */
   }
-  /* .Aboutme .about-me-pic {
-      animation: none;
-    } */
+
   .about-me-socials {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 4fr));
@@ -171,7 +165,6 @@
 @media (max-width: 500px) {
   .Aboutme {
     width: 100%;
-    /* background-color: aqua; */
   }
   .Aboutme .about-me-pic img {
     width: 70%;
