@@ -1,5 +1,7 @@
 /** @format */
 
+import CssIcon from "@mui/icons-material/Css";
+import JavascriptIcon from "@mui/icons-material/Javascript";
 import React, { useState } from "react";
 import "./aboutskill.css";
 
@@ -10,17 +12,50 @@ const AboutSkill = () => {
     setShowMore(!showMore);
   };
 
+  const datas = [
+    {
+      id: 1,
+      icons: <CssIcon />,
+      text: "React",
+    },
+    {
+      id: 2,
+      icons: <CssIcon />,
+      text: "Git",
+    },
+    {
+      id: 3,
+      icons: <JavascriptIcon />,
+      text: "JavaScript",
+    },
+    {
+      id: 4,
+      icons: <CssIcon />,
+      text: "CSS",
+    },
+    {
+      id: 5,
+      icons: <CssIcon />,
+      text: "HTML5",
+    },
+    {
+      id: 6,
+      icons: <CssIcon />,
+      text: "BootStrap",
+    },
+  ];
+
   return (
     <div className="aboutSkill-page">
       <div className="aboutSkill-page-content-one">
         <h3>My Skills</h3>
-        <div className="about-social-btn">
-          <button>HTML</button>
-          <button>CSS</button>
-          <button>Javascript</button>
-          <button>React JS</button>
-          <button>Bootstrap</button>
-          <button>GitHub</button>
+        <div className="icons">
+          {datas.map((data) => (
+            <div className="icon-text" key={data.id}>
+              <button>{data.icons}</button>
+              <p>{data.text}</p>
+            </div>
+          ))}
         </div>
       </div>
       <div className="aboutSkill-page-content-two">
@@ -45,8 +80,8 @@ const AboutSkill = () => {
             </p>
           )}
         </div>
-        <button onClick={handleMore}>
-          {showMore ? "Show Less" : "Show More"}
+        <button onClick={handleMore} className="button">
+          <span>{showMore ? "Show Less" : "Show More"}</span>
         </button>
       </div>
     </div>
