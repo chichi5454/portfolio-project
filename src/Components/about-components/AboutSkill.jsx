@@ -52,7 +52,7 @@ const AboutSkill = () => {
         <div className="icons">
           {datas.map((data) => (
             <div className="icon-text" key={data.id}>
-              <button>{data.icons}</button>
+              {/* <button>{data.icons}</button> */}
               <p>{data.text}</p>
             </div>
           ))}
