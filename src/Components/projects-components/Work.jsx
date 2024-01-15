@@ -1,6 +1,8 @@
 /** @format */
 import weather from "../../Assets/weather.png";
 import cef from "../../Assets/cef.png";
+import video from "../../Assets/video.mp4";
+// import { Player } from "video-react";
 import calculator from "../../Assets/calculator.png";
 import React from "react";
 
@@ -12,6 +14,37 @@ const Work = () => {
       <h2>My Projects</h2>
       <div className="work-page">
         <h4>Each project is a unique piece of development 🧩</h4>
+        <h3>Caribbean Cargo Shipping Services</h3>
+        <div className="work-page-project">
+          <div className="work-page-img">
+            <iframe
+              src={video}
+              title="company website"
+              className="hero-video"></iframe>
+          </div>
+
+          <div className="work-page-content">
+            <p>
+              A company official website that allows users to access company
+              details and services for educational or business use.
+            </p>
+            <div className="demo">
+              <a
+                href="caribbeancargo.co.ke"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Live</button>
+              </a>
+
+              <a
+                href="https://github.com/chichi5454/ecommerce-co"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
         <h3>Company Website</h3>
         <div className="work-page-project">
           <div className="work-page-img">

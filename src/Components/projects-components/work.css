@@ -7,6 +7,14 @@
 .Work h2 {
   text-align: center;
 }
+.work-page-project .hero-video {
+  width: 100%;
+
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 5px;
+  border: 20px;
+}
 .work-page {
   display: flex;
   flex-direction: column;
