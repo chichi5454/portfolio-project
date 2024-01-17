@@ -30,7 +30,7 @@ const Work = () => {
             </p>
             <div className="demo">
               <a
-                href="caribbeancargo.co.ke"
+                href="https://caribbeancargo.co.ke/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <button>Live</button>
