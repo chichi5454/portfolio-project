@@ -1,71 +1,65 @@
 /** @format */
 
-.contact-page {
+.contact-me {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  width: 80%;
+  margin: auto;
 }
-.contact-page h2 {
-  text-align: center;
-  padding: 10px 0;
-}
-.contact-page-content {
+.form-page {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
-.contact-page-content h5 {
+.form-page p {
   width: 40%;
 }
-.contact-page-content form {
+.form-page .for {
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 60%;
 }
-.contact-page-content form input {
-  width: 90%;
-  height: 3rem;
-  background-color: #e5e5e5;
-  color: #010101;
-  border-radius: 10px;
-  border: none;
-  font-size: 15px;
-  font-weight: 500;
-  padding-left: 10px;
-}
-.contact-page-content form input::placeholder {
-  padding-left: 10px;
-  color: #010101;
-  font-size: 15px;
-}
-.contact-page-content form button {
+.form-page .for .form_group {
+  width: 100%;
   display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  gap: 20px;
+}
+/* .form_group {
+  display: grid;
+  gap: 0.3rem;
+}
+
+form {
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  align-items: end;
+  align-content: center;
+} */
+input {
+  border: 2px solid #ecebf3;
+  padding: 12px 8px;
+  width: 100%;
+}
+label {
+  text-transform: capitalize;
+  color: #666;
+}
+input,
+button {
+  border-radius: 5px;
+}
+.btn {
+  color: #090817;
+  background-color: #dcdbe4;
+  padding: 1.3rem;
+  font-family: inherit;
   border: none;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: var(--primary-color);
-  color: #fff;
+  margin-top: 1.3rem;
+  font-size: 0.9em;
+  width: min-content;
 }
-.contact-page-content form button a {
-  color: #010101;
-  background-color: var(--primary-color);
-  font-weight: 600;
-  padding: 10px;
-}
-/* media queries */
-@media (max-width: 720px) {
-  .contact-page-content {
-    display: flex;
-    flex-direction: column;
-  }
-  .contact-page-content h5 {
-    width: 100%;
-    text-align: center;
-  }
-  .contact-page-content form {
-    width: 100%;
-    align-items: center;
-  }
+h2 {
+  text-align: center;
 }
