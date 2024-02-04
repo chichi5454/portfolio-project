@@ -48,7 +48,11 @@ const ContactMe = () => {
           </div>
           <div className="form_group">
             <label htmlFor="">Message</label>
-            <input ref={messageRef} placeholder="enter your message" />
+            <input
+              ref={messageRef}
+              placeholder="enter your message"
+              className="form-message"
+            />
           </div>
           <button className="btn" disabled={loading}>
             SEND
