@@ -20,9 +20,10 @@ const ContactMe = () => {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {
         name: nameRef.current.value,
-        recipient: emailRef.current.value,
+        from_email: emailRef.current.value,
         message: messageRef.current.value,
       });
+
       alert("Email successfully sent.");
     } catch (error) {
       console.log(error);
