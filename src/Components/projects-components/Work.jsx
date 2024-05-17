@@ -2,6 +2,7 @@
 import weather from "../../Assets/weather.png";
 import cef from "../../Assets/cef.png";
 import video from "../../Assets/video.mp4";
+import brm from "../../Assets/brm.mp4";
 // import { Player } from "video-react";
 import calculator from "../../Assets/calculator.png";
 import React from "react";
@@ -14,9 +15,31 @@ const Work = () => {
       <h2>My Projects</h2>
       <div className="work-page">
         <h4>Each project is a unique piece of development 🧩</h4>
+
+        <h3>Kenya RedCross Bomet Branch</h3>
+        <div className="work-page-project">
+          <div className="work-page-vid">
+          <iframe
+              src={brm}
+              title="company website"
+              className="hero-video"></iframe>
+          </div>
+
+          <div className="work-page-content">
+            <p>
+              KRCS Bomet Branch official website aims to make processes easier and smoother such as membership and volunteer registration processes. An official organization website that allows users to access company
+              details and services for educational or business use.
+            </p>
+            <div className="demo">
+              <button>Live</button>
+              <button>Code</button>
+            </div>
+          </div>
+        </div>
+
         <h3>Caribbean Cargo Shipping Services</h3>
         <div className="work-page-project">
-          <div className="work-page-img">
+          <div className="work-page-vid">
             <iframe
               src={video}
               title="company website"
@@ -45,7 +68,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <h3>Company Website</h3>
+        <h3>CEF Website</h3>
         <div className="work-page-project">
           <div className="work-page-img">
             <img src={cef} alt="company website" />
