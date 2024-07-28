@@ -31,7 +31,12 @@ const Work = () => {
               details and services for educational or business use.
             </p>
             <div className="demo">
-              <button>Live</button>
+            <a
+                href="https://red-cross-bomet-branch.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button>Live</button>
+              </a>
               <button>Code</button>
             </div>
           </div>
