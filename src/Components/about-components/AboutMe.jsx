@@ -4,7 +4,7 @@ import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import profile from "../../Assets/profile.jpg";
-import resume from "../../Assets/resume.jpg";
+import resume from "../../Assets/resume.pdf";
 import React from "react";
 import "./aboutMe.css";
 
