@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding: 10px;
   color: var(--primary-color);
